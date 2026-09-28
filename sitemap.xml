@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ============ ITALIANO — pagine principali ============ -->
+  <url>
+    <loc>https://beninidesign.it/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://beninidesign.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://beninidesign.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beninidesign.it/"/>
+    <lastmod>2026-08-22</lastmod><changefreq>monthly</changefreq><priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beninidesign.it/consulenza-online.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://beninidesign.it/consulenza-online.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://beninidesign.it/en/online-consultation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beninidesign.it/consulenza-online.html"/>
+    <lastmod>2026-08-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://beninidesign.it/progettazione-verona.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://beninidesign.it/progettazione-verona.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://beninidesign.it/en/verona-interior-design.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beninidesign.it/progettazione-verona.html"/>
+    <lastmod>2026-08-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://beninidesign.it/servizi.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://beninidesign.it/servizi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://beninidesign.it/en/services.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beninidesign.it/servizi.html"/>
+    <lastmod>2026-08-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beninidesign.it/prezzi.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://beninidesign.it/prezzi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://beninidesign.it/en/pricing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beninidesign.it/prezzi.html"/>
+    <lastmod>2026-08-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://beninidesign.it/chi-siamo.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://beninidesign.it/chi-siamo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://beninidesign.it/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beninidesign.it/chi-siamo.html"/>
+    <lastmod>2026-08-22</lastmod><changefreq>yearly</changefreq><priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://beninidesign.it/contatti.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://beninidesign.it/contatti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://beninidesign.it/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beninidesign.it/contatti.html"/>
+    <lastmod>2026-08-22</lastmod><changefreq>yearly</changefreq><priority>0.7</priority>
+  </url>
+
+  <!-- ============ ITALIANO — enciclopedia ============ -->
+
+  <!-- ============ ENGLISH — main pages ============ -->
+  <url>
+    <loc>https://beninidesign.it/en/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://beninidesign.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://beninidesign.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beninidesign.it/"/>
+    <lastmod>2026-08-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  </url>
+  <url><loc>https://beninidesign.it/en/online-consultation.html</loc><lastmod>2026-08-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beninidesign.it/en/verona-interior-design.html</loc><lastmod>2026-08-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beninidesign.it/en/services.html</loc><lastmod>2026-08-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://beninidesign.it/en/pricing.html</loc><lastmod>2026-08-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beninidesign.it/en/about.html</loc><lastmod>2026-08-22</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://beninidesign.it/en/contact.html</loc><lastmod>2026-08-22</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+
+  <!-- ============ ENGLISH — encyclopedia ============ -->
+
+  <!-- ============ ITALIANO — zone servite (provincia di Verona) ============ -->
+  <url><loc>https://beninidesign.it/comuni/</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beninidesign.it/comuni/verona.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/villafranca-di-verona.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/legnago.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/san-giovanni-lupatoto.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/san-bonifacio.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/bussolengo.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/sona.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/negrar-di-valpolicella.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/pescantina.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/cerea.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/bovolone.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/valeggio-sul-mincio.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/sommacampagna.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/san-martino-buon-albergo.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/zevio.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/castelnuovo-del-garda.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/san-pietro-in-cariano.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/castel-d-azzano.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/isola-della-scala.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/sant-ambrogio-di-valpolicella.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/grezzana.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/peschiera-del-garda.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/oppeano.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/vigasio.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/monteforte-d-alpone.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/nogara.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/cologna-veneta.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/colognola-ai-colli.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/caprino-veronese.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/lavagno.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/caldiero.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/mozzecane.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/povegliano-veronese.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/bardolino.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/lazise.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/soave.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/buttapietra.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/cavaion-veronese.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/arcole.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/ronco-all-adige.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/villa-bartolomea.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/casaleone.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/illasi.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/gazzo-veronese.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/albaredo-d-adige.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/san-giovanni-ilarione.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/tregnago.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/veronella.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/zimella.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/minerbe.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/montecchia-di-crosara.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/fumane.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/garda.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/sanguinetto.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/ronca.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/costermano-sul-garda.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/salizzole.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/malcesine.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/castagnaro.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beninidesign.it/comuni/bosco-chiesanuova.html</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+</urlset>

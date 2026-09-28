@@ -1,0 +1,7 @@
+# Collegamenti e file locali di Windows
+*.url
+Thumbs.db
+desktop.ini
+
+# Sistema
+.DS_Store

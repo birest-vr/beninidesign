@@ -1,0 +1,7 @@
+# beninidesign.it — Benini Design
+# Studio di progettazione e arredamento d'interni — Verona e Nord Italia
+
+User-agent: *
+Allow: /
+
+Sitemap: https://beninidesign.it/sitemap.xml
