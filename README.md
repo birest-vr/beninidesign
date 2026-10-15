@@ -9,31 +9,28 @@ Si pubblica copiando la cartella su qualsiasi hosting statico (Netlify, Vercel, 
 Aruba, un normale spazio FTP).
 
 ---
+## Dati reali e voci ancora aperte
 
-## ⚠️ Da sostituire prima di pubblicare
+Telefono, partita IVA e dominio sono quelli definitivi. Restano da definire o
+verificare le voci segnate sotto.
 
-Nel sito sono presenti **dati segnaposto**. Vanno sostituiti tutti prima di andare online:
-
-| Segnaposto | Dove | Sostituire con |
+| Voce | Stato | Dove |
 |---|---|---|
-| `+39 045 000 0000` | tutte le pagine (`tel:` e testo) | numero di telefono reale |
-| `info@beninidesign.it` | tutte le pagine | indirizzo email reale |
-| `00000000000` | footer di ogni pagina | partita IVA reale |
-| `beninidesign.it` | `canonical`, `hreflang`, JSON-LD, `sitemap.xml`, `robots.txt` | dominio definitivo |
-| Verona (VR), 37100 | JSON-LD `PostalAddress` | indirizzo completo |
-| `45.4384 / 10.9916` | JSON-LD `geo` | coordinate reali della sede |
-| Prezzi di listino | `prezzi.html`, `en/pricing.html`, pagine servizi | tariffe reali |
+| `+39 349 659 3570` | reale | `tel:` e testo, tutte le pagine |
+| `05073630237` | reale | partita IVA, footer di ogni pagina |
+| `beninidesign.it` | reale | dominio attivo su GitHub Pages dal 15/10/2026 |
+| `info@beninidesign.it` | **da definire** | la casella non esiste: va creata o sostituita |
+| Verona (VR), 37100 | da verificare | JSON-LD `PostalAddress` |
+| `45.4384 / 10.9916` | da verificare | JSON-LD `geo`, coordinate della sede |
+| Prezzi di listino | da confermare | `prezzi.html`, `en/pricing.html`, pagine servizi |
 
-Comando rapido per trovare tutti i segnaposto:
+Comando per ritrovare le voci ancora aperte:
 
 ```bash
-grep -rn "045 000 0000\|00000000000\|beninidesign.it" --include="*.html" .
+grep -rn "info@beninidesign.it\|37100\|45.4384" --include="*.html" .
 ```
 
-I **prezzi medi di mercato** riportati nell'enciclopedia sono intervalli indicativi rilevati
-nel 2026 su fonti pubbliche italiane e sono presentati come tali. Vanno riverificati
-periodicamente: la pagina `guida/quanto-costa-arredare.html` e `prezzi.html` riportano la
-data di aggiornamento nel testo.
+I prezzi del listino sono quelli concordati e vanno riverificati periodicamente.
 
 ---
 
