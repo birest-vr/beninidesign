@@ -44,6 +44,8 @@ while IFS='|' read -r slug nome zona km desc case_; do
 
   out="$TPL"
   out="${out//\{\{SLUG\}\}/$slug}"
+  nome_url="$(printf '%s' "$nome" | sed "s/ /%20/g; s/'/%27/g")"
+  out="${out//\{\{NOMEURL\}\}/$nome_url}"
   out="${out//\{\{NOME\}\}/$nome}"
   out="${out//\{\{ZONA\}\}/$zona}"
   out="${out//\{\{DIST\}\}/$dist}"

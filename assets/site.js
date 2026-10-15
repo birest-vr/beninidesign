@@ -267,4 +267,70 @@
 
   /* ---------- 11. Anno corrente nel footer ---------- */
   $$('[data-year]').forEach(function (el) { el.textContent = new Date().getFullYear(); });
+
+  /* ---------- 12. Configuratore della richiesta ---------- */
+  var cfg = $('#cfg-form');
+  if (cfg) {
+    var TEL = '393496593570';
+    var MAIL = 'info@beninidesign.it';
+
+    /* comune preselezionato da ?comune=Nome (usato dalle pagine dei comuni) */
+    var q = new URLSearchParams(window.location.search).get('comune');
+    if (q) {
+      var sel = $('#cfg-comune', cfg);
+      Array.prototype.forEach.call(sel.options, function (o) {
+        if (o.text.toLowerCase() === q.toLowerCase()) { sel.value = o.value || o.text; }
+      });
+    }
+
+    var raccogli = function () {
+      var r = [];
+      var campo = function (etichetta, valore) {
+        if (valore && String(valore).trim()) { r.push(etichetta + ': ' + valore); }
+      };
+      campo('Comune', ($('#cfg-comune', cfg) || {}).value);
+      campo('Quando', ($('#cfg-quando', cfg) || {}).value);
+      campo('Tipo di lavoro', ($('#cfg-lavoro', cfg) || {}).value);
+      campo('Metratura', ($('#cfg-mq', cfg) || {}).value);
+
+      var amb = $$('input[name="Ambienti"]:checked', cfg).map(function (i) { return i.value; });
+      campo('Ambienti', amb.join(', '));
+
+      var art = $$('input[name="Artigiani"]:checked', cfg).map(function (i) { return i.value; });
+      campo('Altre figure che servono', art.join(', '));
+
+      campo('Nome', ($('#cfg-nome', cfg) || {}).value);
+      campo('Contatto', ($('#cfg-contatto', cfg) || {}).value);
+      campo('Note', ($('#cfg-note', cfg) || {}).value);
+      return r;
+    };
+
+    var manca = function (righe) {
+      if (righe.length) { return false; }
+      alert('Compila almeno un campo prima di inviare: ci serve sapere qualcosa del lavoro.');
+      return true;
+    };
+
+    var waBtn = $('#cfg-wa');
+    if (waBtn) {
+      waBtn.addEventListener('click', function () {
+        var righe = raccogli();
+        if (manca(righe)) { return; }
+        var testo = 'Richiesta dal sito Benini Design\n\n' + righe.join('\n');
+        window.open('https://wa.me/' + TEL + '?text=' + encodeURIComponent(testo), '_blank', 'noopener');
+      });
+    }
+
+    var mailBtn = $('#cfg-mail');
+    if (mailBtn) {
+      mailBtn.addEventListener('click', function () {
+        var righe = raccogli();
+        if (manca(righe)) { return; }
+        window.location.href = 'mailto:' + MAIL +
+          '?subject=' + encodeURIComponent('Richiesta dal sito — Benini Design') +
+          '&body=' + encodeURIComponent(righe.join('\n'));
+      });
+    }
+  }
+
 })();

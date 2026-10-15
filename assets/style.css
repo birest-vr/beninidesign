@@ -574,3 +574,24 @@ footer.site h4{
   .rv{opacity:1;transform:none;}
   .sec{padding:18px 0;}
 }
+
+/* ---------- 32. Configuratore richiesta ---------- */
+.cfg{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);padding:clamp(24px,3.2vw,38px);}
+.cfg-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+.cfg-step{border-top:1px solid var(--line);padding-top:22px;margin-top:22px;}
+.cfg-step:first-of-type{border-top:0;padding-top:0;margin-top:0;}
+.cfg-step > .n{font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--clay);display:block;margin-bottom:14px;}
+.chk-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;}
+.chk{display:flex;align-items:center;gap:9px;font-size:.92rem;padding:11px 13px;border:1px solid var(--line);border-radius:var(--r-sm);cursor:pointer;background:#fff;transition:border-color .2s,background .2s;}
+.chk:hover{border-color:var(--clay);}
+.chk input{width:15px;height:15px;accent-color:var(--clay);flex:none;}
+.chk input:checked ~ span{font-weight:600;}
+.cfg-send{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:26px;}
+.cfg-note{font-size:.82rem;color:var(--muted-2);margin-top:14px;}
+@media (max-width:860px){
+  .cfg-grid{grid-template-columns:1fr;}
+  .chk-grid{grid-template-columns:repeat(2,1fr);}
+}
+@media (max-width:560px){
+  .chk-grid{grid-template-columns:1fr;}
+}
