@@ -19,7 +19,7 @@ verificare le voci segnate sotto.
 | `+39 349 659 3570` | reale | `tel:` e testo, tutte le pagine |
 | `05073630237` | reale | partita IVA, footer di ogni pagina |
 | `beninidesign.it` | reale | dominio attivo su GitHub Pages dal 15/10/2026 |
-| `info@beninidesign.it` | **da definire** | la casella non esiste: va creata o sostituita |
+| `benini.design.vr@gmail.com` | reale | email di contatto, tutte le pagine e il configuratore |
 | Verona (VR), 37100 | da verificare | JSON-LD `PostalAddress` |
 | `45.4384 / 10.9916` | da verificare | JSON-LD `geo`, coordinate della sede |
 | Prezzi di listino | da confermare | `prezzi.html`, `en/pricing.html`, pagine servizi |
@@ -27,7 +27,7 @@ verificare le voci segnate sotto.
 Comando per ritrovare le voci ancora aperte:
 
 ```bash
-grep -rn "info@beninidesign.it\|37100\|45.4384" --include="*.html" .
+grep -rn "37100\|45.4384" --include="*.html" .
 ```
 
 I prezzi del listino sono quelli concordati e vanno riverificati periodicamente.

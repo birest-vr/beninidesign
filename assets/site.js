@@ -272,7 +272,7 @@
   var cfg = $('#cfg-form');
   if (cfg) {
     var TEL = '393496593570';
-    var MAIL = 'info@beninidesign.it';
+    var MAIL = 'benini.design.vr@gmail.com';
 
     /* comune preselezionato da ?comune=Nome (usato dalle pagine dei comuni) */
     var q = new URLSearchParams(window.location.search).get('comune');
