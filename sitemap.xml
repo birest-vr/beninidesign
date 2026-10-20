@@ -32,6 +32,11 @@
     <lastmod>2026-08-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
   </url>
   <url>
+    <loc>https://beninidesign.it/stili.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://beninidesign.it/stili.html"/>
+    <lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://beninidesign.it/prezzi.html</loc>
     <xhtml:link rel="alternate" hreflang="it" href="https://beninidesign.it/prezzi.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://beninidesign.it/en/pricing.html"/>
