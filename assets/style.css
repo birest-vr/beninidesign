@@ -615,3 +615,8 @@ footer.site h4{
   .style-top{grid-template-columns:1fr;}
   .style-facts{grid-template-columns:1fr;}
 }
+
+/* ---------- 34. Render d'ambiente ---------- */
+.render{border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;background:#0d0c0b;}
+.render svg{display:block;width:100%;height:auto;}
+.render figcaption{font-family:var(--sans);font-size:.74rem;letter-spacing:.05em;color:var(--muted-2);padding:11px 15px;background:var(--paper);border-top:1px solid var(--line);}
