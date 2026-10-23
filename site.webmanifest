@@ -1,0 +1,16 @@
+{
+  "name": "Benini Design",
+  "short_name": "Benini Design",
+  "description": "Progettazione e arredamento d'interni a Verona e provincia, consulenza online in tutto il Nord Italia.",
+  "lang": "it",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#F5F1EA",
+  "theme_color": "#F5F1EA",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Benini Design">
+  <rect width="100" height="100" fill="#14120E"/>
+  <g transform="translate(49 50) scale(1.34) translate(-49 -50)">
+    <path d="M32 76V24h18a13 13 0 0 1 0 26H32m0 0h21a13 13 0 0 1 0 26H32"
+          fill="none" stroke="#A9673F" stroke-width="7" stroke-linecap="square" stroke-linejoin="round"/>
+  </g>
+</svg>
