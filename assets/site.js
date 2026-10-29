@@ -252,10 +252,14 @@
       if (form.dataset.endpoint) return; // invio normale verso l'endpoint
       e.preventDefault();
       var data = new FormData(form);
-      var lines = [];
+      var keys = [], map = {};
       data.forEach(function (v, k) {
         if (k.indexOf('_') === 0 || !String(v).trim()) return;
-        lines.push(k.replace(/-/g, ' ') + ': ' + v);
+        if (!map[k]) { map[k] = []; keys.push(k); }
+        map[k].push(String(v).trim());
+      });
+      var lines = keys.map(function (k) {
+        return k.replace(/-/g, ' ') + ': ' + map[k].join(', ');
       });
       var subject = form.dataset.subject || 'Richiesta dal sito';
       var body = lines.join('\n');
@@ -264,6 +268,16 @@
         '&body=' + encodeURIComponent(body);
     });
   });
+
+  /* comune preselezionato da ?comune=Nome anche nel modulo preventivo */
+  (function () {
+    var sel = $('#comune');
+    var q = new URLSearchParams(window.location.search).get('comune');
+    if (!sel || !q) return;
+    Array.prototype.forEach.call(sel.options, function (o) {
+      if (o.text.toLowerCase() === q.toLowerCase()) { sel.value = o.value || o.text; }
+    });
+  })();
 
   /* ---------- 11. Anno corrente nel footer ---------- */
   $$('[data-year]').forEach(function (el) { el.textContent = new Date().getFullYear(); });
