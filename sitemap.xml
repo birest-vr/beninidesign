@@ -12,6 +12,7 @@
   <url><loc>https://beninidesign.it/stili.html</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- ============ ITALIANO — comuni ============ -->
+  <url><loc>https://beninidesign.it/comuni/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://beninidesign.it/comuni/arcole.html</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beninidesign.it/comuni/bardolino.html</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beninidesign.it/comuni/bovolone.html</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -26,7 +27,6 @@
   <url><loc>https://beninidesign.it/comuni/cologna-veneta.html</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beninidesign.it/comuni/colognola-ai-colli.html</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beninidesign.it/comuni/grezzana.html</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beninidesign.it/comuni/index.html</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://beninidesign.it/comuni/isola-della-scala.html</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beninidesign.it/comuni/lavagno.html</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beninidesign.it/comuni/lazise.html</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -59,9 +59,9 @@
   <url><loc>https://beninidesign.it/de/innenarchitektur-verona.html</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
 
   <!-- ============ ENGLISH ============ -->
+  <url><loc>https://beninidesign.it/en/</loc><lastmod>2026-10-29</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://beninidesign.it/en/about.html</loc><lastmod>2026-10-29</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://beninidesign.it/en/contact.html</loc><lastmod>2026-10-29</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://beninidesign.it/en/index.html</loc><lastmod>2026-10-29</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://beninidesign.it/en/online-consultation.html</loc><lastmod>2026-10-29</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://beninidesign.it/en/pricing.html</loc><lastmod>2026-10-29</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://beninidesign.it/en/services.html</loc><lastmod>2026-10-29</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
